@@ -1,4 +1,4 @@
-# My-Music
+# Spotify Clone APP
 A Typescript React web music player based on the Spotify web API
 
 As a good way to learn [typescript](https://www.typescriptlang.org/) and improve my [React JS](https://reactjs.org/docs/create-a-new-react-app.html) knowledge, I am building a web based music player and using the RESTful [Spotify web API](https://developer.spotify.com/documentation/web-api/) for data. 
