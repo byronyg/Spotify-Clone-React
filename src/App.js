@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Genres from "./components/Genres";
+import NavigationBar from "./components/NavigationBar";
+import TopArtists from "./components/TopArtists";
+import TopBar from "./components/TopBar";
+import TopCharts from "./components/TopCharts";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wrapper">
+      <div className="left">
+        <NavigationBar />
+      </div>
+      <div className="right">
+        <div className="topbar">
+          <TopBar />
+        </div>
+        <div className="artist">artist profile goes here</div>
+        <div className="lower">
+          <div className="genre">
+            <div className="topartists">
+              <TopArtists />
+            </div>
+            <div className="chartsalot">
+              <div className="genres">
+                <Genres />
+              </div>
+              <div className="topcharts">
+                <TopCharts />
+              </div>
+            </div>
+          </div>
+          <div className="player">player goes here</div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+.wrapper {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.left {
+height: 100vh;
+background-color: aqua;
+width: 20vw;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.right {
+  height: 100vh;
+  width: 80vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.topbar {
+  background-color: rosybrown;
+  height: 5vh;
+}
+.artist {
+  background-color: black;
+  color: aliceblue;
+  height: 35vh;
+}
+.lower {
+  display: flex;
+  flex-direction: row;
+}
+.genre {
+  background-color: bisque;
+  height: 60vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+}
+.topartists {
+  background-color: #18181d;
+  height: 20vh;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.chartsalot {
+  background-color: #18181d;
+  display: flex;
+  flex-direction: row;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.genres {
+  background-color: #18181d;
+  height: 40vh;
+  width: 25vw;
+}
+.topcharts {
+  display: flex;
+  align-items: center;
+}
+.player {
+  background-color: blueviolet;
+  color: aliceblue;
+  height: 60vh;
+  width: 30vw;
 }
