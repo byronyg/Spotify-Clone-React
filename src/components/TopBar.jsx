@@ -1,16 +1,7 @@
-import styled from "styled-components";
 import React from "react";
+import { Body } from "./styles/TopBar.styled";
 
 const topbar = () => {
-  const Body = styled.body`
-    background: #000;
-    color: white;
-    margin: 0;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  `;
   return (
     <Body>
       <div className="list">
@@ -19,7 +10,12 @@ const topbar = () => {
         <a href="/#">LIVE</a>
       </div>
       <div className="search">
-        <input type="search" name="Search" id="" />
+        <input
+          type="search"
+          name="Search"
+          placeholder="Type here to search"
+          id=""
+        />
       </div>
       <div className="useraccount">
         <ul>

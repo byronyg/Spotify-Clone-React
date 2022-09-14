@@ -9,8 +9,8 @@
 }
 .left {
 height: 100vh;
-background-color: aqua;
-width: 20vw;
+  background-color: black;
+  width: 20vw;
 }
 .right {
   height: 100vh;

@@ -19,24 +19,23 @@ const NavigationBar = () => {
         <div className="library">
           LIBRARY
           <ul>
-            <li>Explore</li>
-            <li>Genres</li>
+            <li>Recent</li>
             <li>Albums</li>
-            <li>Artists</li>
-            <li>Radio</li>
+            <li>Favorite</li>
+            <li>Local</li>
           </ul>
         </div>
         <div className="playlist">
           PLAYLIST
           <ul>
-            <li>Explore</li>
-            <li>Genres</li>
-            <li>Albums</li>
-            <li>Artists</li>
-            <li>Radio</li>
+            <li>Create New</li>
+            <li>Design Flow</li>
+            <li>Best of 2022</li>
+            <li>Kenyan Jamz</li>
+            <li>RNB</li>
           </ul>
         </div>
-        <div className="sm-logo">Some Logo here</div>
+        <div className="sm-logo">switch mode</div>
       </Body>
     </div>
   );
