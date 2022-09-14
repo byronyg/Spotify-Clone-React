@@ -1,17 +1,11 @@
 import React from "react";
-import styled from "styled-components";
+import { Body } from "./styles/NavigationBar.styled";
 
 const NavigationBar = () => {
-  const Body = styled.body`
-    background: #18181d;
-    color: white;
-    margin: 0;
-    height: 100vh;
-  `;
   return (
     <div className="parent">
       <Body>
-        <div className="logo">My Music Logo</div>
+        <div className="logo">Groovy</div>
         <div className="menu">
           MENU
           <ul>
