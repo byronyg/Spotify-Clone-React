@@ -19,9 +19,10 @@ const topbar = () => {
       </div>
       <div className="useraccount">
         <ul>
-          <li>Icon</li>
-          <li>Icon</li>
-          <li>User</li>
+          {/* <li>Icon</li>
+          <li>Icon</li> */}
+          <button>Login With Spotify</button>
+          {/* <li>User</li> */}
         </ul>
       </div>
     </Body>

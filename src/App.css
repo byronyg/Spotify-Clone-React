@@ -20,7 +20,7 @@ height: 100vh;
 }
 .topbar {
   background-color: rosybrown;
-  height: 5vh;
+  max-height: 10vh;
 }
 .artist {
   height: 35vh;

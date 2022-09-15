@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Body = styled.body`
-  font-family: "Helvetica Neue";
+  font-family: "Lato";
   background: #18181d;
   color: white;
   margin: 0;

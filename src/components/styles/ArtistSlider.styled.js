@@ -9,5 +9,7 @@ export const Body = styled.body`
   background-size: cover;
   margin: 0;
   height: 100%;
+  display: flex;
   }
+
 `;
