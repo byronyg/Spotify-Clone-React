@@ -12,6 +12,7 @@ export const Body = styled.body`
   div {
     padding-top: 25px;
   }
+
   ul {
     list-style: none;
     padding: 0;
@@ -19,6 +20,7 @@ export const Body = styled.body`
   }
   li {
     padding-left: 1.3em;
+    cursor: pointer;
     line-height: 1.4em;
   }
   li:before {

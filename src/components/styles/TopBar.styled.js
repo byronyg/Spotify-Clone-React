@@ -8,8 +8,9 @@ export const Body = styled.body`
   height: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  align-content: center;
 
   ul {
     list-style: none;
@@ -21,18 +22,29 @@ export const Body = styled.body`
   }
   .list {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 100;;
+    
   }
   a {
     text-decoration: none;
     color: #fff;
   }
   input {
+  font-family: "Lato", FontAwesome;
     display: flex;
+    color: #fff;
+    padding: 12px 20px;
     height: 44px;
     width: 400px;
     background-color: #333333;
     border-radius: 5px;
     border: 1px solid #313131;
+    &:focus {
+      outline: none
+      border: 2px solid #555;
+    }
   }
   
 .button {
@@ -43,11 +55,12 @@ export const Body = styled.body`
   color: #fff;
   cursor: pointer;
   display: inline-block;
+  // display: flex;
   font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.5;
-  margin: 0;
+  margin-bottom: 20px;
   max-width: none;
   min-height: 44px;
   min-width: 10px;

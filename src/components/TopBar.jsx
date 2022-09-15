@@ -16,7 +16,7 @@ const topbar = () => {
         <input
           type="search"
           name="Search"
-          placeholder="&#xf0e0; Type here to search"
+          placeholder="&#xf002; Type here to search"
           id=""
         />
       </div>

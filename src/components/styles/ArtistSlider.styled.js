@@ -3,6 +3,7 @@ import img from "../../assets/musician.jpg";
 
 export const Body = styled.body`
   font-family: "Lato";
+  color: #fff;
   background-image: url(${img});
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -11,6 +12,7 @@ export const Body = styled.body`
   margin: 0;
   height: 100%;
   display: flex;
+
 
  button {
   background: #5E5DF0;
