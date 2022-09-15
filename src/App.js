@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import ArtistSlider from "./components/ArtistSlider";
 import Genres from "./components/Genres";
 import NavigationBar from "./components/NavigationBar";
 import TopArtists from "./components/TopArtists";
@@ -16,7 +17,9 @@ function App() {
         <div className="topbar">
           <TopBar />
         </div>
-        <div className="artist">artist profile goes here</div>
+        <div className="artist">
+          <ArtistSlider />
+        </div>
         <div className="lower">
           <div className="genre">
             <div className="topartists">
