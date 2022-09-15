@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Body = styled.body`
+  font-family: "Lato", Font Awesome;
   background: #000;
   color: white;
   margin: 0;
@@ -29,9 +30,12 @@ export const Body = styled.body`
     display: flex;
     height: 44px;
     width: 400px;
+    background-color: #333333;
+    border-radius: 5px;
+    border: 1px solid #313131;
   }
   
-button {
+.button {
   background-color: #1DB954;
   border-radius: 4px;
   border-style: none;
